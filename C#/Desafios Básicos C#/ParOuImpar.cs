@@ -35,7 +35,7 @@ class Desafio {
       if (x == 0) Console.WriteLine("NULL");
       if (x != 0) {
         if (x > 0) {
-          Console.WriteLine(x % 2 ==0 ? "EVEN POSITIVE" : "ODD POSITIVE");
+          Console.WriteLine(x % 2 ==0 ? "EVEN POSITIVE" : "ODD POSITIVE"); //Bool que indentifica se o resto de x é igual a 
         } else if (x < 0) {
           Console.WriteLine(x % 2 ==0 ? "EVEN NEGATIVE" : "ODD NEGATIVE");
         }
